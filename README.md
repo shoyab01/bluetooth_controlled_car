@@ -42,6 +42,14 @@ https://play.google.com/store/apps/details?id=braulio.calle.bluetoothRCcontrolle
 
 ![circuit_diagram](circuit.jpg)
 
+# Working
+
+First of all give separate connections to Arduino Board and Motor Driver. As Motor Driver requires very high voltage compared to Arduino, assign separate voltage to it. For Arduino board only 5 volts is required. Accordingly assign the power or voltages.
+
+Switch on the Arduino Board hence the bluetooth module connected to the Arduino board will be turned on.
+Then open Bluetooth settings in your mobile to connect to the bluetooth module.
+After connection, open the Arduino Bluetooth RC Car Appin your mobile to steer the robot car. You can also increase the speed of the car by the controls present in the app.
+
 # Video Link
 
 https://drive.google.com/open?id=1-ckaNT6a7-HTjCPYCiCJ9C17n4iDG38x
